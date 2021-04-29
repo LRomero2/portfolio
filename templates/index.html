@@ -81,13 +81,10 @@
                 <!-- Project One Row-->
 <div class="app">
 <div class="cardList"></div>
-<button class="cardList__btn btn btn--left">
-<div class="icon">
-<svg>
-    <use xlink:href="arrow-left"></use>
-</svg>
-</div>
-</button>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
 
 <div class="cards__wrapper">
 <div class="card current--card">
@@ -107,20 +104,42 @@
 </div>
 </div>
 
-<button class="cardList__btn btn btn--right">
-<div class="icon">
-<svg>
-    <use xlink:href="arrow-right"></use>
-</svg>
-</div>
-</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
 
+<div class="infoList">
+<div class="info__wrapper">
+<div class="info current--info">
+<h1 class="text name">Sweet Treats</h1>
+<h4 class="text description">Recipe App</h4>
+<p class="text info">Responsive recipe app using data storage with MongoDB, full CRUD functionality and user authentication.</p>
+</div>
+</div>
+</div>
 
 
+<div class="app__bg">
+    <div class="app__bg__image current--image">
+        <img src="static/assets/img/romeromomentos.jpg" alt="" />
+    </div>
+ <div class="app__bg__image next--image">
+        <img src="static/assets/img/SharedScreenshotnewwelcomepage.jpg" alt="" />
+    </div>
+     <div class="app__bg__image previous--image">
+        <img src="static/assets/img/iphonemockup.jpg" alt="" />
+    </div>
+</div>
 
-
+<div class="loading__wrapper">
+<div class="loader--text">Loading...</div>
+<div class="loader">
+<span></span>
+</div>
+</div>
 
 
 
