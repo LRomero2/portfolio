@@ -75,18 +75,46 @@
                         </div>
                     </div>
                 </div>
+
+
+
                 <!-- Project One Row-->
-<div class="slide hi-slide">
-<div class="hi-prev"></div>
-<div class="hi-next"></div>
-<ul>
-    <li><img src="static/assets/img/romeromomentos.jpg" alt=""></li>
-    <li><img src="static/assets/img/SharedScreenshotnewwelcomepage.jpg" alt=""></li>
-    <li><img src="static/assets/img/sweettreatslandingpage.jpg" alt=""></li>
-</ul>
+<div class="app">
+<div class="cardList"></div>
+<button class="cardList__btn btn btn--left">
+<div class="icon">
+<svg>
+    <use xlink:href="arrow-left"></use>
+</svg>
+</div>
+</button>
+
+<div class="cards__wrapper">
+<div class="card current--card">
+    <div class="card__image">
+  <img src="static/assets/img/romeromomentos.jpg" alt="" />
+    </div>
+</div>
+</div>
+<div class="card next--card">
+<div class="card__image">
+    <img src="static/assets/img/romeromomentos.jpg" alt="" />
+</div>
+</div>
+<div class="card previous--card">
+<div class="card__image">
+    <img src="static/assets/img/romeromomentos.jpg" alt="" />
+</div>
 </div>
 
-
+<button class="cardList__btn btn btn--right">
+<div class="icon">
+<svg>
+    <use xlink:href="arrow-right"></use>
+</svg>
+</div>
+</button>
+</div>
 
 
 
@@ -201,5 +229,6 @@
         <!-- Core theme JS-->
         <script src="static/js/scripts.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        $('.slide').hislide();
     </body>
 </html>
