@@ -55,6 +55,7 @@
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
 
+
 console.clear();
 
 const { gsap, imagesLoaded } = window;
@@ -309,4 +310,4 @@ const waitForImages = () => {
 	});
 };
 
-
+waitForImages();
