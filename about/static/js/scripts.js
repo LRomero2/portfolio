@@ -1,4 +1,3 @@
-
 gsap.registerPlugin(ScrollTrigger);
     let speed = 100;
 
