@@ -10241,7 +10241,7 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
-
+/*
 .masthead {
   position: relative;
   width: 100%;
@@ -10253,7 +10253,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-}
+}*/
 .masthead h1 {
   font-family: 'Poiret One' cursive, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
@@ -10436,4 +10436,20 @@ color:#f1edce;
 
 #carouselExampleIndicators{
 padding-bottom:100px;
+}
+
+
+h1.title{
+  font-size: 7.5em;
+  margin: 15px 0px;
+  font-weight:bold;
+}
+h2.title {
+  font-weight:bold;
+}
+
+.container-masthead{
+    padding-left: 15%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
