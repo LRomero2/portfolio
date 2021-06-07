@@ -6076,9 +6076,6 @@ button.bg-danger:focus {
   background-color: #bd2130 !important;
 }
 
-.bg-light {
-  background-color: #f8f9fa !important;
-}
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -6096,9 +6093,6 @@ button.bg-dark:focus {
   background-color: #1d2124 !important;
 }
 
-.bg-black {
-  background-color: #000000 !important;
-}
 
 a.bg-black:hover, a.bg-black:focus,
 button.bg-black:hover,
@@ -10130,7 +10124,6 @@ color:#f1edce;
 
 .signup-section {
   padding: 4rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10188,6 +10181,10 @@ color:#f1edce;
   padding: 5rem 0;
 }
 
+.bottom-block{
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 95%, #000000 100%);
+      margin:0 !important;
+}
 /*
 .carousel slide reflection{
     width:500px;
@@ -10293,4 +10290,13 @@ svg {
   .btn:hover {
       background: #ffffff;
       color: #1B1734;
+  }
+
+
+  .iphone-mockup{
+      background-color: white;
+  }
+
+  .projects-section{
+      background-color: white;
   }
