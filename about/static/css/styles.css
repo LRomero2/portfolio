@@ -25,6 +25,7 @@ svg {
 
   .btn {
       margin-top:8%;
+      box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%);
       bottom: 5%;
       right: 0px;
       border: 1px solid #fff;
