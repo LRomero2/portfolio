@@ -24,10 +24,9 @@ svg {
 }
 
   .btn {
-      position: fixed;
+      margin-top:8%;
       bottom: 5%;
       right: 0px;
-      transform: translateX(-50%);
       border: 1px solid #fff;
       border-radius: 5px;
       font-size: 0.9rem;
